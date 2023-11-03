@@ -13,21 +13,6 @@ sources:
       - name: Olimpica_EXT
         description: tabla de produtos de olimpica Externa
 
-models:
-  - name: Punto1
-    depends_on:
-      - { model: Olimpica_IMP}
-  - name: Punto2
-    depends_on:
-      - { model: Olimpica_IMP}
-  - name: Punto3
-    depends_on:
-      - { model: Olimpica_IMP}
-  - name: Punto4
-    depends_on:
-      - { model: Olimpica_IMP}
-  - name: Punto5
-    depends_on:
-      - { model: Olimpica_IMP}
+
       
       

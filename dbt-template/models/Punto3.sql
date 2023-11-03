@@ -1,3 +1,4 @@
+-- depends_on: {{ ref('Olimpica_IMP') }}
 WITH Ventas_O AS (
   SELECT a.cliente,COUNT(*) as cuenta
   FROM {{ ref("Compras") }} a
