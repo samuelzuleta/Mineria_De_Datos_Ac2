@@ -104,6 +104,16 @@ logico es el siguiente:
 
 ## Pregunta N° 5
 
+### ¿Qué artículos nunca han sido comprados por los clientes?
+
+Esta pregunta nos pide encontrar aquellos articulos de cualquiera de las tiendas que no tiene ventas aun, para responder a esta pregunta una vez mas utilizamos las tablas de Olimpica, Exito y Compras. La 
+estructura es la siguiente:
+
+- Tomar de las tablas de productos de ambas tiendas la información relevante de cada producto y juntarlo en una sola tabla (UNION ALL).
+- Crear otra tabla donde guardemos todos los productos distintos que estan en compras y a cada un le añadimo la columna auxiliar "Esta" que siempre contiene esa misma palabra.
+- Usando un RIGHT JOIN con la tabla de productos en compras lado derecho y la tabla de productos al izquierdo, elegimos unicamente a aquellos cuya casilla "Esta" tiene un valor nulo, que serian los
+que no aparecen en la tabla de productos en compras y por lo tanto los que aun no han sido comprados.
+
 ## Informe en Looker Studio
 
 
