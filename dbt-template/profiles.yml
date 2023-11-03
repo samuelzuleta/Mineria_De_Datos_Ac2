@@ -1,0 +1,14 @@
+dbt-mineria-actividad-2:
+  outputs:
+    dev:
+      dataset: Actividad2
+      job_execution_timeout_seconds: 1200
+      job_retries: 1
+      keyfile: key.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: mineria-uninorte
+      threads: 1
+      type: bigquery
+  target: dev

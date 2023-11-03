@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mineria-uninorte",
+  "private_key_id": "6c9736dfe9444e47d1f7b9fad722e428099ae409",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5afdK40e7nGzS\now/lBSTaTVRQc0462uB3COYOp/wRO9FbkmdhwaxDGD0V5CpscfGFNWbEkaD0HwBM\nwCDo5hNXsnp9RK7lh8txDBTVwjPGvj44MJM0w6GLLRzCU35x1Ab8e0tEuchsOdr7\nV1vjHeLsGbI5CcSCzdeFwlQA6i42FRT2UAme7/V+2U9Mj2DL53RBTbwZmG1u+j36\niGmIvqfDwXbefzd81a1aeBitxxe9K4gxa6Whs8O8KitEQQvCKAAJLsbwJPAAuc+e\nBEcgcekCSnYkhTd+xbX4BlUUZlTdIWtuqVZ8pgnsP+CWyfg0VIH39BuBLOiDjTHB\nut5jFlDpAgMBAAECggEACwfG+pwMfkNJ5WVmV9bCAKtdYDnehg7TurvQn+pAyy+r\n/qQg5VvAaUTDDDnaMkBnFhMoDXqnwM4qq5DkhFEnsRhrmWc2y8M+iEz9MlL5gecl\nzBxLraBpIbP/LtUJGTF8HD941K+uwOLXkwtOlUjdC/RiuhT0LV9HOpcQffYbO1lU\nfk7Lj8JvugPZNW3SakIEND+srGxfaSWSbGhpmIFrz77z/kpvQWvlcoZiHxcFhz2d\nlhHTWu4MHnCrSDEZ9waWsz85xUEwtRTH5mOOIyULNZgo4B0sBLUCAY1DBKjUvlJH\n7XCS6Z9YERwSBrIBuQsAmLV1A9QEnNa59iQjjoVw1wKBgQD+K18VXHhowa/varCQ\npn+bafM29BDFpg+EU6Ryr+8oc2zJrKUw2M2h43L5MOZ+cyYNTuoq6j8/GNWuTIPh\njXPKhR0lQkAJsdbN42tgj/RKhirrdPcy9ylOAEy41eAxY6TawQlZvrBRuXW7GURb\n9uFx7ot64Gn2E7pSPAmkoWXJ+wKBgQC6v9NcVtJqAfJ6fU8dLscZ7SZkAOCU8F6A\nkn3iMOpEHBdd2YVafOjah/BSIsVD5vDih2hK4IKqL4/zgVxC5ZnodoPK3FoE1V8b\nTbO12lumNnoOlH/b7/+ul76QKCpcvhblKHcL7flJHVIOG85E60VzwCC8eKQDh2gO\nbHBta8ifawKBgC7gYuX2qwJvDnqyi6PyAUDxlnjBJMK/MMdwAblhN1OXji3X2JOc\nuLgt0cuhuDEEHbWAo3GMyGNjui0uUXhs9TkZudlgUZ04HmzUj748boq8GfhZFypg\nKU8IgR3p3DJftUzfI1FY+P3pnYwHSfNIIiY4H6Nm9kP7OXbnOcQSPEq3AoGBAI67\nkqYezc+sEVJBeDhLym0sbo08hmoPlYsbbA93Z3YLKmjWmi/hDHAKOknsvWz6k93v\ntGyWUAgXNiTdGFEg/5NHEc/4vuy20Gwj5Vj2vdm6BWwjX94P/xHIdSPlLwuXVhRr\n6yE5D7EsMc0Kv4q5b2nazKqAYos38PYlN4DKQpplAoGAUP7A62/+l3SfAfjb9DOm\n3mkuFzYSj+WlRbGVDbrYIFQzn0PF+9mMigT1x2zHFGQulNw3/1+HvzPDaRYhA/pP\nLntnoS93djdi1df58kmdmYcW8v0Q7zHklM0Ts3BsQie3ZRYu+hKKNhdb3a2Yi8Mu\nbJSttj03DPYqNjEA5cOLEdg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "lllavepro@mineria-uninorte.iam.gserviceaccount.com",
+  "client_id": "108737038504555563437",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lllavepro%40mineria-uninorte.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
