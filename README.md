@@ -93,7 +93,14 @@ El resultado de esta consulta SQL no nos arroja nada aparentemente , esto es deb
 
 ## Pregunta N° 4
 
-### 
+### ¿Cuáles son los productos que las personas compran con mayor frecuencia?
+
+Lo que esta pregunta claramente nos incita a buscar son los productos, ya sea de Olimpica o de EXITO, que tiene más número de ventas, para este utilizamos ambas tablas de productos y la de Compras. El proceso
+logico es el siguiente:
+
+- Primero Realizamos un conteo por codigo de producto que muestre la cantidad de veces que ha sido comprado cada uno y lo ordenamos de mayores a menores tomando solo los 10 primeros.
+- Extraemos información relevante de los productos tanto de Olimpica como de Exito y los unimos en una sola tabla.
+- Finalmente asociamos cada condigo de la tabla de conteo con su respectiva información y ordenamos nuevamente en base a el conteo de ventas.
 
 ## Pregunta N° 5
 
