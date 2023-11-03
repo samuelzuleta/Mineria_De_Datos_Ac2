@@ -41,9 +41,19 @@ Las 4 tablas quedaron subidas como vistas dentro del proyecto "mineria-uninorte"
 
 ## Materialización de las tablas
 
-La materialización de las tablas Tambien 
+La materialización de las tablas tambien fue una tarea relativamente sencilla ya que esta se limitaba a crear 4 consultas SQL que reralizaran un SELECT del contenido total de cada una de ellas (a las tablas 
+externas con finalización ".EXT") pra luego crear una nueva para cada una con los mismos datos.
+
+Sabemos que este paso es realizado principalmente para no tener que ejecutar las vistas cada que se deseen consultar, lo que disminuye los tiempos de ejecución de los Querys.
 
 ## Imputación de datos faltantes
+
+Para realizar el proceso de imputación de los datos en primer lugar debiamos saber cuales de las tablas requerian de este proceso. Nos dimos cuenta que la unica tabla con Valores faltantes era la tabla de productos olimpica en su columna de precio por lo que era la unica que necesitaba imputación. Las instrucciones indicaban que la imputación era usando la media, El proceso a seguir fue el siguiente:
+
+Realizamos Un conteno de los productos que si tenian precio con una función over() y ademas ordenamos los precios de forma desecendente, luego añadimos numeración a cada precio. Despues de eso usaremos una 
+consulta que a travez del uso del CASE WHEN decida como calcular la media en función de si hay un numero par o impar de precios y guardarla, por ultimo hacemos una consulta a la tabla De olimpica y remplazamos los valores que son nulos. 
+
+Esta nueva tabla imputada se guardara con el nombre de "Olimpica_IMP" y sera usada en el desarrollo de las preguntas en sustitución de la normal.
 
 ## Pregunta N° 1
 
