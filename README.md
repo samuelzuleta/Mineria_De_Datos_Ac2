@@ -9,7 +9,7 @@ Repositorio que contiene el Data Build Tool asociado a la actividad N°2 del gru
 - Eduardo Rey
 
 ## :world_map: Tabla de contenidos
-1. [NOTA IMPORTANTE](#item1)
+1. [NOTA IMPORTANTE](#anotaciones-importantes)
 2. [Contexto Inicial del desarrollo](#Contextualización)
 3. [Migración de los datos](#contributing)
 4. [Materialización de las tablas](#)
