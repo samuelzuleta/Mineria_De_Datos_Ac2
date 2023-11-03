@@ -3,7 +3,7 @@ Repositorio que contiene el Data Build Tool asociado a la actividad N°2 del gru
 
 ## :construction_worker: Mienbros del equipo.
 - Samuel Zuleta
-- Salomon Saens
+- Salomon Saenz
 - Edilberto Rodrigez
 - Juan Saieh
 - Eduardo Rey
