@@ -57,6 +57,13 @@ Esta nueva tabla imputada se guardara con el nombre de "Olimpica_IMP" y sera usa
 
 ## Pregunta N° 1
 
+### ¿Cuál es el gasto promedio de "Vino Tinto" tanto en las tiendas Olimpica como en las EXITO?
+
+Para responder estas preguntas era nescesario utilizar 3 tablas: La de productos exito, la de producto olimpica con su imputación y por ultimo la tabla de compras, definimos que el resultado final debian ser 
+2 valores que serian los gatos promedios de vino tinto en exito y en olimpica. El procedimiento fue el siguiente: 
+
+- Extraer de las tablas de productos tanto exito como olimpica 
+
 ## Pregunta N° 2
 
 ## Pregunta N° 3
