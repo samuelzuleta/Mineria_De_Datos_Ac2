@@ -62,9 +62,20 @@ Esta nueva tabla imputada se guardara con el nombre de "Olimpica_IMP" y sera usa
 Para responder estas preguntas era nescesario utilizar 3 tablas: La de productos exito, la de producto olimpica con su imputación y por ultimo la tabla de compras, definimos que el resultado final debian ser 
 2 valores que serian los gatos promedios de vino tinto en exito y en olimpica. El procedimiento fue el siguiente: 
 
-- Extraer de las tablas de productos tanto exito como olimpica 
+- Extraer de las tablas de productos tanto exito como olimpica todos los codigos y los precios de los diferentes productos que cumplieran con que en su descripción estuviera el fragmento "vino tinto".
+- Unir ambas tablas usando un UNION ALL. Luego usando la tabla compras realizamos un conteo de las veces que fueron comprados cada producto para asi a travez de un INNER JOIN filtrar solo los conteos de vino tinto
+- Por ultimo y usando una columna auxiliar en la tabla anterior calculamos el promedio de cada tienda y lo mostramos en 2 diferentes filas.
 
 ## Pregunta N° 2
+
+### ¿Quiénes son los compradores destacados en los establecimientos Olimpica y EXITO?
+
+Esta pregunta la interpretamos como que debiamos extraer el top de clientes con más Compras en Dinero de ambas tiendas de manera conjunta, decidimos centrarno en los 10 mayores compradores. El proceso fue 
+el siguiente: 
+
+- En primero lugar tomamos el codigo y precio de los productos tanto de olimpica como de exito y lo unimos todo en una tabla (UNION ALL).
+- Luego enfrentamos esta tabla con la tabla de compras para realizar un perfil de cada codigo de cliente y la sumatoria de los precios de todos lo productos que compro.
+- Al final realizamos un join con la anterior tabla y la de clientes para obtener sus datos a travez del codigo para mostrar entonces los datos de los 10 más prominentes y su gasto total.
 
 ## Pregunta N° 3
 
