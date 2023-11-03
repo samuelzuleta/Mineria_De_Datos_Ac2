@@ -70,8 +70,8 @@ Para responder estas preguntas era nescesario utilizar 3 tablas: La de productos
 
 ### ¿Quiénes son los compradores destacados en los establecimientos Olimpica y EXITO?
 
-Esta pregunta la interpretamos como que debiamos extraer el top de clientes con más Compras en Dinero de ambas tiendas de manera conjunta, decidimos centrarno en los 10 mayores compradores. El proceso fue 
-el siguiente: 
+Esta pregunta la interpretamos como que debiamos extraer el top de clientes con más Compras en Dinero de ambas tiendas de manera conjunta, decidimos centrarno en los 10 mayores compradores, en este punto utilizamos
+las 4 tablas. El proceso fue el siguiente: 
 
 - En primero lugar tomamos el codigo y precio de los productos tanto de olimpica como de exito y lo unimos todo en una tabla (UNION ALL).
 - Luego enfrentamos esta tabla con la tabla de compras para realizar un perfil de cada codigo de cliente y la sumatoria de los precios de todos lo productos que compro.
@@ -79,7 +79,21 @@ el siguiente:
 
 ## Pregunta N° 3
 
+### ¿Quiénes son los clientes que han realizado compras específicamente en Olimpica pero no en EXITO?
+
+Para Responder esta pregunta decidimos que solo era necesario utilizar la tabla de Compras y como la pregunta nos lo indica: mostrar los clientes Que hicieran compras en olimpica pero no en EXITO. La consulta 
+ocurre de la siguiente manera: 
+
+- Realizamos 2 conteos: 1 que cuente la cantidad de comprar por cliente en Olimpica y otro para exito agrupandos por cliente.
+- Luego realizamos un INNER JOIN entre ambos en donde la condicion sea que el contador de olimpica sea mayor a 0 ( > 0 ) y el de Exito igual a 0 ( = 0 )
+
+### IMPORTANTE: 
+
+El resultado de esta consulta SQL no nos arroja nada aparentemente , esto es debido a que no existen clientes que realizen compras solo en Olimpica y no en Exito.
+
 ## Pregunta N° 4
+
+### 
 
 ## Pregunta N° 5
 
