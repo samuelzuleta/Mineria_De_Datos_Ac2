@@ -26,17 +26,22 @@ Repositorio que contiene el Data Build Tool asociado a la actividad N°2 del gru
 
 ## Contextualización 
 
-Durante 
+Durante el desarrollo de este taller se daran respuesta a una serie de preguntas basadas en varios conjuntos de datos que se nos dan como punto de partida. Las respuestas seran contestadas precisamente
+a travez de consultas SQL a estos conjuntos de datos que deberan ser exportados a Bigquery y posteriormente materializados e imputados. Todo, a excepción de la migración inicial la cual sera manual, deberá 
+ser realizado a travez de un Data Build Tool configurado para conectarce a Bigquery y ejecutar las sentencias SQL una a una hasta realizarlas todas.
+
+Finalmente crearemos un reporte en Looker Studio. 
 
 ## Migración de datos a Bigquery
 
 Para la migración de las 4 tablas a bigquery Realizamos una subida manual ya que este era el unico paso que teniamos permitido realizar de esta manera. La migración fue rapida gracias a que Bigquery te permite 
 la opcion de subir las tablas directamente desde Google drive sin intermediarios, siendo ambos servicios de Google es algo normal.
 
-Las 4 tablas quedaron subidas entonces como vistas con sus respectivos nombres (Compras_EXT, Clientes_EXT, Olimpica_EXT, Exito_EXT).  
-Y Seran El unico material con el que se desarrollaran todos los puntos ademas de lo generado a partir de ellas.
+Las 4 tablas quedaron subidas como vistas dentro del proyecto "mineria-uninorte" en el conjunto de datos "Actividad2" conservando el formato de origen y con sus respectivos nombres (Compras_EXT, Clientes_EXT, Olimpica_EXT, Exito_EXT). Estas seran el unico material con el que se desarrollaran todos los puntos ademas de lo generado a partir de ellas.
 
 ## Materialización de las tablas
+
+La materialización de las tablas Tambien 
 
 ## Imputación de datos faltantes
 
