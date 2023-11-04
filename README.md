@@ -34,10 +34,9 @@ Finalmente crearemos un reporte en Looker Studio.
 
 ## Migración de datos a BigQuery
 
-Para la migración de las 4 tablas a bigquery Realizamos una subida manual ya que este era el unico paso que teniamos permitido realizar de esta manera. La migración fue rapida gracias a que Bigquery te permite 
-la opcion de subir las tablas directamente desde Google drive sin intermediarios, siendo ambos servicios de Google es algo normal.
+Para la migración de las 4 tablas a Bigquery, realizamos una subida manual, ya que este era el único paso que teníamos permitido realizar de esta manera. La migración fue rápida gracias a que Bigquery te permite la opción de subir las tablas directamente desde Google drive sin intermediarios, siendo ambos servicios de Google es algo normal.
 
-Las 4 tablas quedaron subidas como vistas dentro del proyecto "mineria-uninorte" en el conjunto de datos "Actividad2" conservando el formato de origen y con sus respectivos nombres (Compras_EXT, Clientes_EXT, Olimpica_EXT, Exito_EXT). Estas seran el unico material con el que se desarrollaran todos los puntos ademas de lo generado a partir de ellas.
+Las 4 tablas quedaron subidas como vistas dentro del proyecto "mineria-uninorte" en el conjunto de datos "Actividad2" conservando el formato de origen y con sus respectivos nombres (Compras_EXT, Clientes_EXT, Olimpica_EXT, Exito_EXT). Estas serán el único material con el que se desarrollarán todos los puntos además de lo generado a partir de ellas.
 
 ## Materialización de las tablas
 
