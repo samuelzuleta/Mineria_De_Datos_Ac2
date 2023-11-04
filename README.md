@@ -47,7 +47,9 @@ Sabemos que este paso se realiza principalmente para evitar tener que ejecutar l
 ## Imputación de datos faltantes
 
 Para realizar el proceso de imputación de los datos en primer lugar debíamos saber cuáles de las tablas requerían de este proceso. Nos dimos cuenta que la única tabla con Valores faltantes era la tabla de productos olímpica en su columna de precio por lo que era la única que necesitaba imputación. Las instrucciones indicaban que la imputación era usando la media, El proceso a seguir fue el siguiente:
+
 Realizamos un conteo de los productos que si tenían precio con una función over() y además ordenamos los precios de forma descendente, luego añadimos numeración a cada precio. Después de eso usaremos una consulta que a través del uso del CASE WHEN decida como calcular la media en función de si hay un numero par o impar de precios y guardarla, por último hacemos una consulta a la tabla De olímpica y remplazamos los valores que son nulos.
+
 Esta nueva tabla imputada se guardará con el nombre de "Olimpica_IMP" y será usada en el desarrollo de las preguntas en sustitución de la normal.
 
 ## Pregunta N° 1
