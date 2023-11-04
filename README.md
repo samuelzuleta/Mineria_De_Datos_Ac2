@@ -41,6 +41,9 @@ Python -m venv venv
 source venv/Scripts/activate
 pip install -r requirements.txt
 ```
+
+La creación del ambiente virtual al momento de la ejecución es necesaria para un correcto funcionamiento.
+
 3. correr el DBT posicionándonos en la carpeta dbt-template e iniciando la ejecución de la siguiente manera:
 ```
 cd dbt-template/
