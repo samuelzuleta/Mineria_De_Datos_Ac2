@@ -116,7 +116,7 @@ que no aparecen en la tabla de productos en compras y por lo tanto los que aun n
 
 ## Informe en Looker Studio
 
-https://lookerstudio.google.com/reporting/d9a88c7b-6a5b-4544-8214-9a86b2ca00ac
+[Link del informe](#https://lookerstudio.google.com/reporting/d9a88c7b-6a5b-4544-8214-9a86b2ca00ac/page/1mJhD)
 
 
 
