@@ -109,6 +109,10 @@ Esta pregunta nos pide encontrar aquellos artículos de cualquiera de las tienda
 
 [Link del informe](https://lookerstudio.google.com/reporting/d9a88c7b-6a5b-4544-8214-9a86b2ca00ac/page/1mJhD)
 
+```
+ls -al
+```
+
 
 
 
