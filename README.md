@@ -48,12 +48,9 @@ Sabemos que este paso es realizado principalmente para no tener que ejecutar las
 
 ## Imputación de datos faltantes
 
-Para realizar el proceso de imputación de los datos en primer lugar debiamos saber cuales de las tablas requerian de este proceso. Nos dimos cuenta que la unica tabla con Valores faltantes era la tabla de productos olimpica en su columna de precio por lo que era la unica que necesitaba imputación. Las instrucciones indicaban que la imputación era usando la media, El proceso a seguir fue el siguiente:
-
-Realizamos Un conteno de los productos que si tenian precio con una función over() y ademas ordenamos los precios de forma desecendente, luego añadimos numeración a cada precio. Despues de eso usaremos una 
-consulta que a travez del uso del CASE WHEN decida como calcular la media en función de si hay un numero par o impar de precios y guardarla, por ultimo hacemos una consulta a la tabla De olimpica y remplazamos los valores que son nulos. 
-
-Esta nueva tabla imputada se guardara con el nombre de "Olimpica_IMP" y sera usada en el desarrollo de las preguntas en sustitución de la normal.
+Para realizar el proceso de imputación de los datos en primer lugar debíamos saber cuáles de las tablas requerían de este proceso. Nos dimos cuenta que la única tabla con Valores faltantes era la tabla de productos olímpica en su columna de precio por lo que era la única que necesitaba imputación. Las instrucciones indicaban que la imputación era usando la media, El proceso a seguir fue el siguiente:
+Realizamos un conteo de los productos que si tenían precio con una función over() y además ordenamos los precios de forma descendente, luego añadimos numeración a cada precio. Después de eso usaremos una consulta que a través del uso del CASE WHEN decida como calcular la media en función de si hay un numero par o impar de precios y guardarla, por último hacemos una consulta a la tabla De olímpica y remplazamos los valores que son nulos.
+Esta nueva tabla imputada se guardará con el nombre de "Olimpica_IMP" y será usada en el desarrollo de las preguntas en sustitución de la normal.
 
 ## Pregunta N° 1
 
