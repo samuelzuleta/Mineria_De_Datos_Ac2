@@ -54,62 +54,56 @@ Esta nueva tabla imputada se guardará con el nombre de "Olimpica_IMP" y será u
 
 ## Pregunta N° 1
 
-### ¿Cuál es el gasto promedio de "Vino Tinto" tanto en las tiendas Olimpica como en las EXITO?
+### ¿Cuál es el gasto promedio de "Vino Tinto" tanto en las tiendas olímpico como en las EXITO?
 
-Para responder estas preguntas era nescesario utilizar 3 tablas: La de productos exito, la de producto olimpica con su imputación y por ultimo la tabla de compras, definimos que el resultado final debian ser 
-2 valores que serian los gatos promedios de vino tinto en exito y en olimpica. El procedimiento fue el siguiente: 
+Para responder estas preguntas era necesario utilizar 3 tablas: La de productos éxito, la de producto olímpica con su imputación y por último la tabla de compras, definimos que el resultado final debían ser 2 valores que serían los gatos promedios de vino tinto en éxito y en olímpica. El procedimiento fue el siguiente:
 
-- Extraer de las tablas de productos tanto exito como olimpica todos los codigos y los precios de los diferentes productos que cumplieran con que en su descripción estuviera el fragmento "vino tinto".
-- Unir ambas tablas usando un UNION ALL. Luego usando la tabla compras realizamos un conteo de las veces que fueron comprados cada producto para asi a travez de un INNER JOIN filtrar solo los conteos de vino tinto
+- Extraer de las tablas de productos tanto éxito como olímpica todos los códigos y los precios de los diferentes productos que cumplieran con que en su descripción estuviera el fragmento "vino tinto".
+- Unir ambas tablas usando un UNION ALL. Luego usando la tabla compras realizamos un conteo de las veces que fueron comprados cada producto para así a través de un INNER JOIN filtrar solo los conteos de vino tinto
 - Por ultimo y usando una columna auxiliar en la tabla anterior calculamos el promedio de cada tienda y lo mostramos en 2 diferentes filas.
 
 ## Pregunta N° 2
 
-### ¿Quiénes son los compradores destacados en los establecimientos Olimpica y EXITO?
+### ¿Quiénes son los compradores destacados en los establecimientos Olímpica y EXITO?
 
-Esta pregunta la interpretamos como que debiamos extraer el top de clientes con más Compras en Dinero de ambas tiendas de manera conjunta, decidimos centrarno en los 10 mayores compradores, en este punto utilizamos
-las 4 tablas. El proceso fue el siguiente: 
+Esta pregunta la interpretamos como que debíamos extraer el top de clientes con más Compras en Dinero de ambas tiendas de manera conjunta, decidimos centrarnos en los 10 mayores compradores, en este punto utilizamos las 4 tablas. El proceso fue el siguiente: 
 
-- En primero lugar tomamos el codigo y precio de los productos tanto de olimpica como de exito y lo unimos todo en una tabla (UNION ALL).
-- Luego enfrentamos esta tabla con la tabla de compras para realizar un perfil de cada codigo de cliente y la sumatoria de los precios de todos lo productos que compro.
-- Al final realizamos un join con la anterior tabla y la de clientes para obtener sus datos a travez del codigo para mostrar entonces los datos de los 10 más prominentes y su gasto total.
+- En primero lugar tomamos el código y precio de los productos tanto de olímpica como de éxito y lo unimos todo en una tabla (UNION ALL).
+- Luego enfrentamos esta tabla con la tabla de compras para realizar un perfil de cada código de cliente y la sumatoria de los precios de todos los productos que compro.
+- Al final realizamos un join con la anterior tabla y la de clientes para obtener sus datos a través del código para mostrar entonces los datos de los 10 más prominentes y su gasto total.
 
 ## Pregunta N° 3
 
-### ¿Quiénes son los clientes que han realizado compras específicamente en Olimpica pero no en EXITO?
+### ¿Quiénes son los clientes que han realizado compras específicamente en Olímpica pero no en EXITO?
 
-Para Responder esta pregunta decidimos que solo era necesario utilizar la tabla de Compras y como la pregunta nos lo indica: mostrar los clientes Que hicieran compras en olimpica pero no en EXITO. La consulta 
-ocurre de la siguiente manera: 
+Para Responder esta pregunta decidimos que solo era necesario utilizar la tabla de Compras y como la pregunta nos lo indica: mostrar los clientes Que hicieran compras en olímpica pero no en EXITO. La consulta ocurre de la siguiente manera:
 
-- Realizamos 2 conteos: 1 que cuente la cantidad de comprar por cliente en Olimpica y otro para exito agrupandos por cliente.
-- Luego realizamos un INNER JOIN entre ambos en donde la condicion sea que el contador de olimpica sea mayor a 0 ( > 0 ) y el de Exito igual a 0 ( = 0 )
+- Realizamos 2 conteos: 1 que cuente la cantidad de comprar por cliente en olímpica y otro para éxito agrupados por cliente.
+- Luego realizamos un INNER JOIN entre ambos en donde la condición sea que el contador de olímpica sea mayor a 0 ( > 0 ) y el de Éxito igual a 0 ( = 0 )
 
 ### IMPORTANTE: 
 
-El resultado de esta consulta SQL no nos arroja nada aparentemente , esto es debido a que no existen clientes que realizen compras solo en Olimpica y no en Exito.
+El resultado de esta consulta SQL no nos arroja nada aparentemente, esto es debido a que no existen clientes que realicen compras solo en Olímpica y no en Éxito.
 
 ## Pregunta N° 4
 
 ### ¿Cuáles son los productos que las personas compran con mayor frecuencia?
 
-Lo que esta pregunta claramente nos incita a buscar son los productos, ya sea de Olimpica o de EXITO, que tiene más número de ventas, para este utilizamos ambas tablas de productos y la de Compras. El proceso
-logico es el siguiente:
+Lo que esta pregunta claramente nos incita a buscar son los productos, ya sea de Olímpica o de EXITO, que tiene más número de ventas, para este utilizamos ambas tablas de productos y la de Compras. El proceso lógico es el siguiente:
 
-- Primero Realizamos un conteo por codigo de producto que muestre la cantidad de veces que ha sido comprado cada uno y lo ordenamos de mayores a menores tomando solo los 10 primeros.
-- Extraemos información relevante de los productos tanto de Olimpica como de Exito y los unimos en una sola tabla.
+- Primero Realizamos un conteo por código de producto que muestre la cantidad de veces que ha sido comprado cada uno y lo ordenamos de mayores a menores tomando solo los 10 primeros.
+- Extraemos información relevante de los productos tanto de Olímpico como de Éxito y los unimos en una sola tabla.
 - Finalmente asociamos cada condigo de la tabla de conteo con su respectiva información y ordenamos nuevamente en base a el conteo de ventas.
 
 ## Pregunta N° 5
 
 ### ¿Qué artículos nunca han sido comprados por los clientes?
 
-Esta pregunta nos pide encontrar aquellos articulos de cualquiera de las tiendas que no tiene ventas aun, para responder a esta pregunta una vez mas utilizamos las tablas de Olimpica, Exito y Compras. La 
-estructura es la siguiente:
+Esta pregunta nos pide encontrar aquellos artículos de cualquiera de las tiendas que no tiene ventas aun, para responder a esta pregunta una vez más utilizamos las tablas de Olímpica, Éxito y Compras. La estructura es la siguiente:
 
 - Tomar de las tablas de productos de ambas tiendas la información relevante de cada producto y juntarlo en una sola tabla (UNION ALL).
-- Crear otra tabla donde guardemos todos los productos distintos que estan en compras y a cada un le añadimo la columna auxiliar "Esta" que siempre contiene esa misma palabra.
-- Usando un RIGHT JOIN con la tabla de productos en compras lado derecho y la tabla de productos al izquierdo, elegimos unicamente a aquellos cuya casilla "Esta" tiene un valor nulo, que serian los
-que no aparecen en la tabla de productos en compras y por lo tanto los que aun no han sido comprados.
+- Crear otra tabla donde guardemos todos los productos distintos que están en compras y a cada uno le añadimos la columna auxiliar "Esta" que siempre contiene esa misma palabra.
+- Usando un RIGHT JOIN con la tabla de productos en compras lado derecho y la tabla de productos al izquierdo, elegimos únicamente a aquellos cuya casilla "Esta" tiene un valor nulo, que serían los que no aparecen en la tabla de productos en compras y por lo tanto los que aún no han sido comprados.
 
 ## Informe en Looker Studio
 
