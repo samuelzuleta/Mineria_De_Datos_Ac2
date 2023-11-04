@@ -15,10 +15,10 @@ Repositorio que contiene el Data Build Tool asociado a la actividad N°2 del gru
 4. [Materialización de las tablas](#materialización-de-las-tablas)
 5. [Imputación](#imputación-de-datos-faltantes)
 6. [Pregunta 1](#pregunta-n-1)
-7. [Pregunta 2](#pregunta-n-1)
-8. [Pregunta 3](#pregunta-n-1)
-9. [Pregunta 4](#pregunta-n-1)
-10. [Pregunta 5](#pregunta-n-1)
+7. [Pregunta 2](#pregunta-n-2)
+8. [Pregunta 3](#pregunta-n-3)
+9. [Pregunta 4](#pregunta-n-4)
+10. [Pregunta 5](#pregunta-n-5)
 11. [Informe looker studio](#informe-en-looker-studio)
 
 
