@@ -40,10 +40,9 @@ Las 4 tablas quedaron subidas como vistas dentro del proyecto "mineria-uninorte"
 
 ## Materialización de las tablas
 
-La materialización de las tablas tambien fue una tarea relativamente sencilla ya que esta se limitaba a crear 4 consultas SQL que reralizaran un SELECT del contenido total de cada una de ellas (a las tablas 
-externas con finalización ".EXT") pra luego crear una nueva para cada una con los mismos datos.
+La materialización de las tablas también fue una tarea relativamente sencilla, ya que se limitaba a crear 4 consultas SQL que realizaran un SELECT del contenido total de cada una de ellas (a las tablas externas con extensión ".EXT") para luego crear una nueva tabla para cada una con los mismos datos.
 
-Sabemos que este paso es realizado principalmente para no tener que ejecutar las vistas cada que se deseen consultar, lo que disminuye los tiempos de ejecución de los Querys.
+Sabemos que este paso se realiza principalmente para evitar tener que ejecutar las vistas cada vez que se deseen consultar, lo que disminuye los tiempos de ejecución de los Querys.
 
 ## Imputación de datos faltantes
 
