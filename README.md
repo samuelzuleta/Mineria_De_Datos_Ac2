@@ -24,6 +24,29 @@ Repositorio que contiene el Data Build Tool asociado a la actividad N°2 del gru
 
 ## ANOTACIONES IMPORTANTES
 
+Para realizar una correcta ejecución del DBT En cualquien entonrno en el que nos encontremos es necesario:
+1. Tener Python 3 recomendablemente
+2. configurar el ambiente virtual en el que se ejecutará el DBT.
+Estando directamente en la carpeta "Mineria_De_Datos_Ac2" hacemos: 
+
+- Si es desde un code-space de Github:
+```
+Python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+- Si es desde Windows
+```
+Python -m venv venv
+source venv/Scripts/activate
+pip install -r requirements.txt
+```
+3. correr el DBT posicionandonos en la carpeta dbt-template e iniciando la ejecución de la siguiente manera:
+```
+cd dbt-template/
+dbt run
+```
+
 ## Contextualización 
 
 Durante el desarrollo de este taller, se darán respuesta a una serie de preguntas basadas en varios conjuntos de datos que se nos dan como punto de partida. Las respuestas serán contestadas precisamente
@@ -109,9 +132,7 @@ Esta pregunta nos pide encontrar aquellos artículos de cualquiera de las tienda
 
 [Link del informe](https://lookerstudio.google.com/reporting/d9a88c7b-6a5b-4544-8214-9a86b2ca00ac/page/1mJhD)
 
-```
-ls -al
-```
+
 
 
 
