@@ -26,9 +26,9 @@ Repositorio que contiene el Data Build Tool asociado a la actividad N°2 del gru
 
 ## Contextualización 
 
-Durante el desarrollo de este taller se daran respuesta a una serie de preguntas basadas en varios conjuntos de datos que se nos dan como punto de partida. Las respuestas seran contestadas precisamente
-a travez de consultas SQL a estos conjuntos de datos que deberan ser exportados a Bigquery y posteriormente materializados e imputados. Todo, a excepción de la migración inicial la cual sera manual, deberá 
-ser realizado a travez de un Data Build Tool configurado para conectarce a Bigquery y ejecutar las sentencias SQL una a una hasta realizarlas todas.
+Durante el desarrollo de este taller, se darán respuesta a una serie de preguntas basadas en varios conjuntos de datos que se nos dan como punto de partida. Las respuestas serán contestadas precisamente
+a través de consultas SQL a estos conjuntos de datos que deberán ser exportados a BigQuery y posteriormente materializados e imputados. Todo, a excepción de la migración inicial, la cual sera manual, deberá 
+ser realizado a través de un Data Build Tool configurado para conectarce a Bigquery y ejecutar las sentencias SQL una a una hasta realizarlas todas.
 
 Finalmente crearemos un reporte en Looker Studio. 
 
