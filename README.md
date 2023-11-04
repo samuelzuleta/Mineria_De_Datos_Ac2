@@ -32,7 +32,7 @@ ser realizado a través de un Data Build Tool configurado para conectarce a Bigq
 
 Finalmente crearemos un reporte en Looker Studio. 
 
-## Migración de datos a Bigquery
+## Migración de datos a BigQuery
 
 Para la migración de las 4 tablas a bigquery Realizamos una subida manual ya que este era el unico paso que teniamos permitido realizar de esta manera. La migración fue rapida gracias a que Bigquery te permite 
 la opcion de subir las tablas directamente desde Google drive sin intermediarios, siendo ambos servicios de Google es algo normal.
